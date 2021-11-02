@@ -6,17 +6,37 @@
 
 header {
   background-color: rgb(37, 23, 23);
-  height: 10vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  height: 25vh;
+  text-align: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  padding: 5vh;
 }
 
 main {
-  min-height: 90vh;
+  min-height: 65vh;
   background-color: whitesmoke;
+  text-align: center;
+  padding-top: 10vh;
+}
+
+p {
+  padding: 15px;
+}
+
+li {
+  display: inline-block;
+  align-items: center;
+  padding: 20px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: pointer;
 }
 
 footer {
@@ -28,19 +48,28 @@ footer {
 }
 
 .card {
-  width: 20vw;
-  height: 25vh;
+  width: 200px;
+  height: 180px;
   background-color: rgb(175, 218, 245);
   border: solid 1px black;
   border-radius: 6px;
-  padding: 10px;
   margin: 10px;
   text-align: center;
+  filter: grayscale(100%);
 }
 
 .card img {
   width: 100%;
-  padding: 10px;
+  padding: 5px 0 5px 0;
+}
+
+.card a {
+  color: black;
+}
+
+.card:hover {
+  filter: grayscale(0%);
+  box-shadow: 2px 2px 5px 2px rgba(55, 55, 83, 0.5);
 }
 
 .cardwrapper {
