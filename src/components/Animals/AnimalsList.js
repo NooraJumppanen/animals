@@ -8,12 +8,13 @@ class AnimalsList extends Component {
     state = {
         searchInput: ""
     };
+    
     searchInputHandler = (event) => {
         this.setState({
             searchInput: event.target.value,
-        });
-            
+        });      
     };
+    
         render() {
             const animalFilter = animals.filter((animal) => {
                 return animal.name.toLowerCase().includes(this.state.searchInput.toLowerCase());
@@ -26,9 +27,17 @@ class AnimalsList extends Component {
         <div className="cardwrapper">
             <Switch>
                 <Route exact path={this.props.match.path}>
-                <input type="text" onChange={this.searchInputHandler} />{animalsListing}
+
+                    <div className="searchInputWrapper">
+                        <p>Search animals: </p>
+                    <input type="text" className="searchInput" onChange={this.searchInputHandler} />
+                    </div>
+
+                {animalsListing}
+                
                 </Route>
-                <Route path={`${this.props.match.path}/:animal`}><AnimalSingle />
+                <Route path={`${this.props.match.path}/:animal`}>
+                <AnimalSingle />
                 </Route>
             </Switch>
         </div>
