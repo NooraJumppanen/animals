@@ -1,123 +1,123 @@
-@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 
 * {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
-  font-family: "Source Sans Pro", sans-serif;
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 
 header {
-  background-color: rgb(37, 23, 23);
-  height: 25vh;
-  text-align: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-  padding: 5vh;
+	background-color: rgb(37, 23, 23);
+	height: 25vh;
+	text-align: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
+	padding: 5vh;
 }
 
 main {
-  min-height: 65vh;
-  background-color: whitesmoke;
-  text-align: center;
-  padding-top: 10vh;
+	min-height: 65vh;
+	background-color: whitesmoke;
+	text-align: center;
+	padding-top: 10vh;
 }
 
 p {
-  padding: 15px;
-  font-size: 18px;
+	padding: 15px;
+	font-size: 18px;
 }
 
 li {
-  display: inline-block;
-  align-items: center;
-  padding: 20px;
+	display: inline-block;
+	align-items: center;
+	padding: 20px;
 }
 
 a {
-  color: white;
-  text-decoration: none;
+	color: white;
+	text-decoration: none;
 }
 
 a:hover {
-  cursor: pointer;
+	cursor: pointer;
 }
 
 footer {
-  background-color: rgb(37, 23, 23);
-  height: 10vh;
-  color: white;
-  text-align: center;
-  padding: 15px;
+	background-color: rgb(37, 23, 23);
+	height: 10vh;
+	color: white;
+	text-align: center;
+	padding: 15px;
 }
 
 .card {
-  width: 200px;
-  height: 180px;
-  background-color: rgb(175, 218, 245);
-  border: solid 1px black;
-  border-radius: 6px;
-  margin: 10px;
-  text-align: center;
-  filter: grayscale(100%);
+	width: 200px;
+	height: 180px;
+	background-color: rgb(175, 218, 245);
+	border: solid 1px black;
+	border-radius: 6px;
+	margin: 10px;
+	text-align: center;
+	filter: grayscale(100%);
 }
 
 .card img {
-  width: 100%;
-  padding: 5px 0 5px 0;
+	width: 100%;
+	padding: 5px 0 5px 0;
 }
 
 .card a {
-  color: black;
+	color: black;
 }
 
 .card:hover {
-  filter: grayscale(0%);
-  box-shadow: 2px 2px 5px 2px rgba(55, 55, 83, 0.5);
+	filter: grayscale(0%);
+	box-shadow: 2px 2px 5px 2px rgba(55, 55, 83, 0.5);
 }
 
 .cardwrapper {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  min-height: 65vh;
-  background-color: whitesmoke;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	min-height: 65vh;
+	background-color: whitesmoke;
 }
 
 .searchInputWrapper {
-  height: 100px;
-  width: 100vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+	height: 100px;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .searchInput {
-  padding: 10px;
-  border: 1px solid black;
-  border-radius: 10px;
-  font-size: 16px;
+	padding: 10px;
+	border: 1px solid black;
+	border-radius: 10px;
+	font-size: 16px;
 }
 
 button {
-  padding: 10px;
-  background-color: rgb(175, 218, 245);
-  color: rgb(37, 23, 23);
-  border: 2px solid black;
-  border-radius: 5px;
-  font-size: 18px;
-  cursor: pointer;
+	padding: 10px;
+	background-color: rgb(175, 218, 245);
+	color: rgb(37, 23, 23);
+	border: 2px solid black;
+	border-radius: 5px;
+	font-size: 18px;
+	cursor: pointer;
 }
 
 .animalSingleCard {
-  padding: 10px;
+	padding: 10px;
 }
 
 .animalSingleCard img {
-  width: 30vw;
-  height: auto;
-  border-radius: 10px;
-  border: 2px solid rgb(37, 23, 23);
-  margin: 5px;
-  box-shadow: 2px 2px 5px 2px rgba(55, 55, 83, 0.5);
+	width: 30vw;
+	height: auto;
+	border-radius: 10px;
+	border: 2px solid rgb(37, 23, 23);
+	margin: 5px;
+	box-shadow: 2px 2px 5px 2px rgba(55, 55, 83, 0.5);
 }
